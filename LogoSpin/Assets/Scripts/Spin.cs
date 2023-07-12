@@ -39,6 +39,4 @@ public class Spin : MonoBehaviour
     {
         rotateLeft = false;
     }
-
-
 }
