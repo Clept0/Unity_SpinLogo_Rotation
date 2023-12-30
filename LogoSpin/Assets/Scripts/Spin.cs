@@ -12,11 +12,11 @@ public class Spin : MonoBehaviour
     {
         if(rotateRight)
         {
-            transform.Rotate(Vector3.down, rotationSpeed * Time.deltaTime);
+            transform.Rotate(Vector3.down, rotationSpeed * Time.deltaTime, Space.World);
         }
         else if (rotateLeft)
         {
-            transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+            transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime, Space.World);
         }
     }
 
